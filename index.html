@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="styles.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <main>
-        <h1>GET TO KNOW YOU</h1>
-        <section>
+        <h1 >GET TO KNOW YOU</h1>
+        <div class="tableOfContents">
             <ul>
-                <li>What are you?</li>
-                <li>What is your favorite animal?</li>
-                <li>What is your favorite color?</li>
-                <li>What is your favorite hobby?</li>
-                <li>Who is your favorite singer, and what is your favorite song from them?</li>
+                <li class="contents">What are you?</li>
+                <li class="contents">What is your favorite animal?</li>
+                <li class="contents">What is your favorite color?</li>
+                <li class="contents">What is your favorite hobby?</li>
+                <li class="contents">Who is your favorite singer, and what is your favorite song from them?</li>
             </ul>
-        </section>
+        </div>
+        <hr>
         <form action="Seanyy@gmail.com">   
-            <section>
+            <div class="questions">
+                <section>
             <img src="images/what are you.jpg" alt="questioning look" height="200px" width="200px">
             <fieldset>
                 <legend><i>What are you?</i></legend>
@@ -45,11 +48,11 @@
                 <input id="fish" type="checkbox" name="animals" value="fish">
                 <label for=fish>Fish</label>
                 <input id="snake" type="checkbox" name="animals" value="snake">
-                <lable for="snake">Snake</lable>
+                <label for="snake">Snake</label>
                 <input id="monkey" type="checkbox" name="animals" value="monkey">
-                <lable for="monkey">Monkey</lable>
+                <label for="monkey">Monkey</label>
                 <input id="pokemon" type="checkbox" name="animals" value="pokemon">
-                <lable for="pokemon">Pokemon</lable>
+                <label for="pokemon">Pokemon</label>
             </fieldset>
         </section>
         <section>
@@ -57,7 +60,6 @@
             <fieldset>
                 <legend><i>What is your favorite color?</i></legend>
                 <input id="color" type="text" name="color" placeholder="e.g. Pink" required>
-                <button type="submit">Submit</button>
             </fieldset>
         </section>
         <section>
@@ -73,29 +75,30 @@
                 <input id="crochet" type="checkbox" name="hobby" value="crochet">
                 <label for=crochet>Crocheting</label>
                 <input id="outdoor-sports" type="checkbox" name="hobby" value="outdoor-sports">
-                <lable for="outdoor-sports">Outdoor-Sports</lable>
+                <label for="outdoor-sports">Outdoor-Sports</label>
                 <input id="indoor-sports" type="checkbox" name="hobby" value="indoor-sports">
-                <lable for="indoor-sports">Indoor-Sports</lable>
+                <label for="indoor-sports">Indoor-Sports</label>
                 <input id="weird" type="checkbox" name="hobby" value="weird">
-                <lable for="weird">Rearranging soap bubbles in the sink until they form the shape of the Philippine archipelago</lable>
+                <label for="weird">Rearranging soap bubbles in the sink until they form the shape of the Philippine archipelago</label>
             </fieldset>
         </section>
         <section>
             <img src="images/monkeypt2.jpg" alt="skeptical monkey" height="200px" width="200px">
             <fieldset>
                 <legend><i>Who is your favorite singer, and what is your favorite song from them?</i></legend>
-                <input id="singer&song" type="type" name="singer&song" placeholder="e.g. Ms. Rachel (The Wheels on the Bus)">
-                <button type="submit">Submit</button> 
+                <input id="singer&song" type="type" name="singer&song" placeholder="e.g. Ms. Rachel (The Wheels on the Bus)" required>
             </fieldset>
         </section>
+        <button type="submit">Submit</button> 
+            </div>
         </form>
     </main>
-    <section>
-        <img src="images/oldMan.jpg" alt="old man" height="250px" width="250px">
-        <h3><b><i>Thank you so much for participating!!!</i></b></h3>
-    </section>
 </body>
 <footer>
+    <section>
+        <img src="images/oldMan.jpg" alt="old man">
+        <h3><b><i>Thank you so much for participating!!!</i></b></h3>
+    </section>
     <p><i>-Seanny</i></p>
 </footer>
 </html>

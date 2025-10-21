@@ -1,0 +1,92 @@
+body {
+    background-color: #ffc2d1;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    font-family: 'Palatino Linotype', serif;
+    color: #c9184a;
+    font-size: 50px;
+}
+
+.tableOfContents {
+    background-color: #ffc2d1;
+    text-align: center;
+    padding: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-family: 'Book Antiqua', serif;
+    display: block;
+    color: #ff254d;
+    font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0; /* Optional: removes indentation */
+}
+
+hr{
+    margin-top: -10px;
+    margin-left:10%;
+    margin-right:10%;
+    height: 1px;
+    background-color:  #ff758f;
+    border-color:  #ff758f;
+}
+
+.questions{
+    padding: 30px;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align:center; 
+}
+
+img{
+    margin-top: 10%;
+    height: 300px;
+    width: 330px;
+}
+
+fieldset{
+    margin-top: 10px;
+    border-color: #ff254d
+}
+
+input{
+    font-family: 'Palatino Linotype', serif;
+    font-size: 15px;
+    margin-left:15px;
+    margin: 15px;
+}
+
+legend{
+    font-size: 30px;
+    color: #ff254d;
+}
+
+label{
+    color: #ff254d;
+}
+
+input[type="radio"]:checked + label, input[type="checkbox"]:checked + label {
+  color: rgb(253, 108, 132);
+} 
+
+button{
+    margin-top:70px;
+    font-family:'Palatino Linotype', serif;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: rgb(253, 108, 132);
+    border-color:#ff254d;
+}
+
+footer{
+    text-align: center;
+    color: #c9184a;
+}
